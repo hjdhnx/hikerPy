@@ -1,0 +1,7 @@
+js: ""
+
+let libs = ["classes.dex", "chaquopy.apk", "arm64-v8a", "libs_py", "PythonHiker.js", "安装Python扩展.hkshell"];
+for (name of libs){
+    copyFiles(name, 'hiker://files/plugins/chaquopy/');
+}
+toast("chaquopy安装成功")

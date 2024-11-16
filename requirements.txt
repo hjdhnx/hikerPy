@@ -1,0 +1,8 @@
+ujson
+pyquery
+jsonpath
+requests
+lxml
+urllib3
+pycryptodome
+cachetools
